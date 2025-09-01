@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <button id="startButton" onclick="startGame()">Start</button>
+        <div id="gameArea" class="hidden">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/TikTok_logo_2021.svg" alt="TikTok Logo" id="tiktokLogo">
+            <p>Welcome to the TikTok Challenge!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
